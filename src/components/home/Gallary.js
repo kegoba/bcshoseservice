@@ -2,7 +2,7 @@ import React from 'react';
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css'
 import metal from "../image/home/metal.jpeg"
-import hydraulics from "../image/home/hydraulics.jpg"
+import hyd from "../image/home/hyd.jpg"
 import hydraulic from "../image/home/hydraulic.jpg"
 import custom from "../image/home/custom.jpg"
 import fittings from "../image/home/fittings.jpg"
@@ -20,7 +20,7 @@ const Gallary = () => {
                         <p> Spiral braided hose</p>
                     </div>
                     <div className="col">
-                        <img src={hydraulics} className="yours-custom-class" />
+                        <img src={hyd} className="yours-custom-class" />
                         <p> hydraulics</p>
                     </div>
                     <div className="col">
