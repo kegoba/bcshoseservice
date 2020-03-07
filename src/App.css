@@ -36,19 +36,21 @@
   margin-top:1%;
  
 }
+form{
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.products{
+  padding-top: 40px;
 
+}
 
 
 .footer, .menu{
   background :rgb(179, 12, 12);
 }
 
-.card{
-  max-width: 500px;
-  
- 
-  
-}
+
 .login-input{
     max-block-size: 300px;
 }

@@ -18,7 +18,7 @@ const Footer =()=>{
                         <h4> Contact </h4>
                         <p> 07030574793 (WhatsApp)</p>
                         <p> 07082260445 </p>
-                        <p> ifo@bcshoseservice.com </p>
+                        <p> bcshoseservices@gmail.com</p>
 
 
                     </div>

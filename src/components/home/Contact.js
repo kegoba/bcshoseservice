@@ -1,5 +1,6 @@
 import React, { Component } from "react"
 import { Link } from 'react-router-dom'
+import * as emailjs from 'emailjs-com'
 //import AliceCarousel from "react-alice-carousel" 
 //import  bed1 from "../image/bed1.jpg"
 //import Gallary from "../gallary/gallary"
@@ -13,13 +14,15 @@ class Contact extends Component {
         this.onchangeMessage = this.onchangeMessage.bind(this)
         this.onchangeEmail = this.onchangeEmail.bind(this)
         this.onchangeName = this.onchangeName.bind(this)
-
+        this.onchangePhone = this.onchangePhone.bind(this)
         this.handleSubmit = this.handleSubmit.bind(this)
         this.state = {
             name: "",
             tittle: "",
             email: "",
             message: "",
+            phone : "",
+            success : false,
 
 
 
@@ -32,6 +35,14 @@ class Contact extends Component {
         })
 
     }
+    onchangePhone(e) {
+        console.log(e.target.value)
+        this.setState({
+            phone : e.target.value
+        })
+
+    }
+
 
     onchangeEmail(e) {
         console.log(e.target.value)
@@ -50,7 +61,42 @@ class Contact extends Component {
         })
     }
 
-    handleSubmit() {
+    handleSubmit(e) {
+        e.preventDefault()
+        const {email, name, phone,  message } = this.state
+        const send_data  ={
+            email : email,
+            phone : phone,
+            name : name,
+            message: message,
+            //  template_ez4FxDLq
+
+            //user_id = user_WtmWAM80GJCV4f4IBwjm1
+            
+        }
+        console.log(send_data)
+        
+        emailjs.send(
+            "gmail",
+            'template_fpIu8UJk',
+            send_data,
+            'user_1b6ebQeWUAmq3xvTpxP2S'
+        )
+        .then((res)=>{
+            this.setState({
+                success : true
+            })
+        }, (err)=>{
+            console.log(err)
+        })
+
+        this.setState({
+            email: "",
+            phone: "",
+            name: "",
+            message: "",
+        })
+        
 
     }
 
@@ -62,8 +108,9 @@ class Contact extends Component {
         return (
             <div>
 
-                <form className="text-center" >
-                    <div className="container">
+                <form className="text-center " >
+                   <div classname="alert-success"> {this.state.success} </div>
+                    <div className="container card-light">
                         <div className="row">
                             <div className="col">
                                 <label className="text-center" > Name </label>
@@ -80,16 +127,30 @@ class Contact extends Component {
                     <div className="container">
                         <div className="row">
                             <div className="col">
-                                <label className="text-center" > Email </label>
+                                <label className="text-center" > Phone </label>
                             </div>
                         </div>
                         <div className="container">
                             <div className="row">
                                 <div className="col">
-                                    <input type="text" className="text-center" onChange={this.onchangeEmail} value={this.state.email} />
+                                    <input type="text" className="text-center" onChange={this.onchangePhone}  value={this.state.phone} />
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    <div className="container">
+                        <div className="row">
+                        <div className="col">
+                            <label className="text-center" > Email </label>
+                        </div>
+                    </div>
+                    <div className="container">
+                        <div className="row">
+                            <div className="col">
+                                <input type="text" className="text-center" onChange={this.onchangeEmail} value={this.state.email} />
+                            </div>
+                        </div>
+                    </div>
                     </div>
                     <div className="container">
                         <div className="row">

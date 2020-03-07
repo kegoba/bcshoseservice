@@ -4,7 +4,6 @@ import {  Link } from 'react-router-dom'
 //import AliceCarousel from "react-alice-carousel" 
 //import  bed1 from "../image/bed1.jpg"
 import Gallary from "./Gallary"
-import Contact from "./Contact"
 
 
 
@@ -26,8 +25,10 @@ class Home extends Component {
                 <div className="container animated swing">
                     <div className="row">
                         <div className="col">
-                            <h4> Our Services </h4>                 
-                            <p className="card-body bg-light"> We provide hose assembly solutions which includes repairs of worn hose, 
+                            <h4> Our Services </h4>
+                                           
+                            <p className="card-body bg-light"> 
+                                We provide hose assembly solutions which includes repairs of worn hose, 
                                 bursted hose, rebuild and custom fit replacement hoses for any of your 
                                 machines. Our team of experienced hose and hydraulic technicians are trusted
                                 to give you quality service anytime. We are specialists in repairs of hydraulic 

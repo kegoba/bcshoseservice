@@ -8,6 +8,7 @@ const Services = ()=>{
                     <h4 className="services">
                         Our Services
                     </h4>
+                     <h5> Hose Repairs And Replacement</h5> 
                     <p>
                         We provide hose assembly solutions which includes repairs of worn hose, bursted hose, 
                         rebuild and custom fit replacement hoses for any of your machines. Our team of experienced 
@@ -16,11 +17,11 @@ const Services = ()=>{
                         pressure hoses. Our expertise serves the following industry:
                         </p>
                     
-                         Agriculture,
-                    Manufacture ,
-                     Construction ,
+                    Agriculture,
+                    Manufacture,
+                     Construction,
                      Mining,
-                     Oil and Gas ,
+                     Oil and Gas,
                     Food and Chemical,
                     Transportation and Utilities.
                
