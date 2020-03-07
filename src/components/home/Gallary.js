@@ -13,42 +13,43 @@ const Gallary = () => {
     const handleOnDragStart = (e) => e.preventDefault()
     return (
         <AliceCarousel mouseTrackingEnabled>
-            <div className="container card bg-light ">
-                <div className="row card-body">
-                    <div className="col">
-                        <img src={Spiral} className="yours-custom-class" />
-                        <p> Spiral braided hose</p>
-                    </div>
-                    <div className="col">
-                        <img src={hyd} className="yours-custom-class" />
-                        <p> hydraulics</p>
-                    </div>
-                    <div className="col">
-                        <img src={custom} className="yours-custom-class" />
-                        <p>  custom hydraulic hoses</p>
-                    </div>
-
-
-                </div>
-
-            </div>
             <div className="container card bg-light">
                 <div className="row card-body">
                     <div className="col">
                         <img src={hydraulic} className="yours-custom-class" />
-                        <p> hydraulic </p>
+                        <p className="products"> hydraulic </p>
                     </div>
                     <div className="col">
                         <img src={metal} className="yours-custom-class" />
-                        <p> Metal  </p>
+                        <p className="products"> Metal  </p>
                     </div>
                     <div className="col">
                         <img src={fittings} className="yours-custom-class" />
-                        <p> Assembly fittings </p>
+                        < p className="products"> Assembly fittings </p>
                     </div>
                 </div>
 
             </div>
+            <div className="container card bg-light ">
+                <div className="row card-body">
+                    <div className="col">
+                        <img src={Spiral} className="yours-custom-class" />
+                        <p className="products"> Spiral braided hose</p>
+                    </div>
+                    <div className="col">
+                        <img src={hyd} className="yours-custom-class" />
+                        <p className="products"> hydraulics</p>
+                    </div>
+                    <div className="col">
+                        <img src={custom} className="yours-custom-class" />
+                        <p className="products">  custom hydraulic hoses</p>
+                    </div>
+
+
+                </div>
+
+            </div>
+           
         </AliceCarousel>
     )
 }

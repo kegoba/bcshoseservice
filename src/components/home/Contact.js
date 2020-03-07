@@ -109,6 +109,13 @@ class Contact extends Component {
             <div>
 
                 <form className="text-center " >
+                    <p className="products"> For everything hose; hydraulic, water, oil and gas, power steering, 
+                        steam, air, and metal, whatever and however you want the repair? 
+                        We are the specialist!
+                        
+                        Our goal is to reach our customers as quick as possible and conveniently provide
+                         superior services.  We look forward to hearing from you!
+                     </p>
                    <div classname="alert-success"> {this.state.success} </div>
                     <div className="container card-light">
                         <div className="row">
