@@ -23,6 +23,7 @@ class Contact extends Component {
             message: "",
             phone : "",
             success : false,
+            msg : "",
 
 
 
@@ -84,7 +85,8 @@ class Contact extends Component {
         )
         .then((res)=>{
             this.setState({
-                success : true
+                success : true,
+                msg : "Message Sent Successfully!"
             })
         }, (err)=>{
             console.log(err)
@@ -116,7 +118,7 @@ class Contact extends Component {
                         Our goal is to reach our customers as quick as possible and conveniently provide
                          superior services.  We look forward to hearing from you!
                      </p>
-                   <div classname="alert-success"> {this.state.success} </div>
+                   <div classname="alert-success"> {this.state.msg} </div>
                     <div className="container card-light">
                         <div className="row">
                             <div className="col">
