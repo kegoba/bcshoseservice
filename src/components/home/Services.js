@@ -1,4 +1,7 @@
 import React from "react"
+import preventive1 from "../image/preventive1.jpg"
+import preventive2 from "../image/preventive2.jpg"
+import preventive3 from "../image/preventive3.jpg"
 
 const Services = ()=>{
     return(
@@ -46,6 +49,20 @@ const Services = ()=>{
                     
                 </div>
 
+            </div>
+            <div className="container preventive">
+                <div className="row">
+                    <div className="col">
+                        <img src={preventive1} />
+
+                    </div>
+                    <div className="col">
+                        <img src={preventive2} />
+
+                        
+                    </div>
+                
+                </div>
             </div>
 
         </div>

@@ -12,45 +12,49 @@ import Spiral from "../image/home/Spiral.jpg"
 const Gallary = () => {
     const handleOnDragStart = (e) => e.preventDefault()
     return (
-        <AliceCarousel mouseTrackingEnabled>
+        
             <div className="container card bg-light">
                 <div className="row card-body">
-                    <div className="col">
-                        <img src={hydraulic} className="yours-custom-class" />
-                        <p className="products"> hydraulic </p>
+                    <div class="col">
+                        <div id="slider" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active ">
+                                    <img src={hydraulic} className="" />
+                                    <p className="products"> hydraulic </p>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src={metal} className="shake" />
+                                    <p className="products "> Metal  </p>
+                                </div>
+                                <div class="carousel-item bounce">
+                                    <img src={fittings} className="" />
+                                    < p className="products"> Assembly fittings </p>
+                                </div>
+                            </div>
+                            
+                            
+                        </div>
                     </div>
-                    <div className="col">
-                        <img src={metal} className="yours-custom-class" />
-                        <p className="products"> Metal  </p>
+                <div class="col ">
+                    <div id="slider" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active ">
+                                <img src={Spiral} className="" />
+                                <p className="products"> Spiral braided hose</p>
+                            </div>
+                            <div class="carousel-item">
+                                <img src={hyd} className="" />
+                                <p className="products"> hydraulics</p>
+                            </div>
+                            <div class="carousel-item">
+                                <img src={custom} className="" />
+                                <p className="products">  custom hydraulic hoses</p>
+                            </div>
+                         </div>
                     </div>
-                    <div className="col">
-                        <img src={fittings} className="yours-custom-class" />
-                        < p className="products"> Assembly fittings </p>
-                    </div>
-                </div>
-
-            </div>
-            <div className="container card bg-light ">
-                <div className="row card-body">
-                    <div className="col">
-                        <img src={Spiral} className="yours-custom-class" />
-                        <p className="products"> Spiral braided hose</p>
-                    </div>
-                    <div className="col">
-                        <img src={hyd} className="yours-custom-class" />
-                        <p className="products"> hydraulics</p>
-                    </div>
-                    <div className="col">
-                        <img src={custom} className="yours-custom-class" />
-                        <p className="products">  custom hydraulic hoses</p>
-                    </div>
-
-
-                </div>
-
-            </div>
-           
-        </AliceCarousel>
+                </div>  
+                </div> 
+        </div>
     )
 }
 export default Gallary

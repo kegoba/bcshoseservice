@@ -13,7 +13,7 @@ import metal from "../image/metal.jpeg"
 const Product = ()=>{
     return (
     <div >
-        <div className="container">
+            <div className="container preventive">
             <div className="row">
                 <div className="col">
                    <h4> Products</h4> 
@@ -40,14 +40,14 @@ const Product = ()=>{
                 </div>
                     <div className="col card-light">
                         <img src={fittings } />
-                        <p className="products"> Fittings and Couplings <Link to={"/contact"}> Order</Link>  </p>
+                        <p className="products"> Fittings and Couplings <Link to={"/contact"}> Place Order</Link>  </p>
                          
                          
                 </div>
                     <div className="col card-light">
                         <img src={metal} />
                        
-                        <p className="products">  Specials  <Link to={"/contact"}> Order</Link>  </p>
+                        <p className="products">  Specials  <Link to={"/contact"}>  Place Order</Link>  </p>
                 </div>
                 </div>
             </div>

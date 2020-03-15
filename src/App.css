@@ -94,6 +94,23 @@ textarea[type="textarea"]{
   }
 }
 
+@media(min-width:800px){
+  .banner_x{
+    visibility: hidden;
+     margin-top: -200px;
+ 
+  
+  }
+}
+
+@media(max-width:800px){
+  .banner_xxl{
+    visibility: hidden;
+     margin-bottom: -200px;
+  
+  
+  }
+}
 
 @media (max-width:700px){
 .btn{
@@ -105,7 +122,16 @@ outline: none;
   
   }
 }
-.tittle,.comment, input{
-    text-align: center;
-    align-content: center;
+
+
+.preventive{
+  margin: 40px;
+
 }
+
+.logo{
+  border-radius: 40px;
+
+
+}
+
