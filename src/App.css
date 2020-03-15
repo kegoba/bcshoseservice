@@ -101,8 +101,17 @@ textarea[type="textarea"]{
     
     max-width: 700px;
   }
+  
 
 }
+@media(max-width:800px){
+  .prevent{
+    max-width: 310px;
+  }
+  
+
+}
+
 
 @media (max-width:700px){
 .btn{

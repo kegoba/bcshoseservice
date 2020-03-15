@@ -19,15 +19,15 @@ const Gallary = () => {
                         <div id="slider" class="carousel slide" data-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active ">
-                                    <img src={hydraulic} className="" />
+                                <img className="prevent" src={hydraulic}  />
                                     <p className="products"> hydraulic </p>
                                 </div>
                                 <div class="carousel-item">
-                                    <img src={metal} className="shake" />
+                                <img className="prevent" src={metal} />
                                     <p className="products "> Metal  </p>
                                 </div>
                                 <div class="carousel-item bounce">
-                                    <img src={fittings} className="" />
+                                <img className="prevent" src={fittings} />
                                     < p className="products"> Assembly fittings </p>
                                 </div>
                             </div>
@@ -39,15 +39,15 @@ const Gallary = () => {
                     <div id="slider" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active ">
-                                <img src={Spiral} className="" />
+                                <img className="prevent" src={Spiral}/>
                                 <p className="products"> Spiral braided hose</p>
                             </div>
                             <div class="carousel-item">
-                                <img src={hyd} className="" />
+                                <img className="prevent"src={hyd} />
                                 <p className="products"> hydraulics</p>
                             </div>
                             <div class="carousel-item">
-                                <img src={custom} className="" />
+                                <img className="prevent"src={custom}  />
                                 <p className="products">  custom hydraulic hoses</p>
                             </div>
                          </div>
