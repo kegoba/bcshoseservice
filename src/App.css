@@ -99,7 +99,7 @@ textarea[type="textarea"]{
 @media(max-width:800px){
   .banner{
     
-    max-width: 200px;
+    max-width: 700px;
   }
 
 }
