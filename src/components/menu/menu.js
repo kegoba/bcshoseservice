@@ -48,20 +48,14 @@ class Menu extends Component {
                     </nav>
                     <div className="container">
                         <div className="row">
-                            <div className="col banner_xxl">
-                                <img src={banner_xxl} />
+                            <div className="col">
+                                <img className="col banner" src={banner_xxl} />
                             </div>
                            
 
                         </div>
                     </div>
-                    <div className="container">
-                        <div className="row" >
-                            <div className="col banner_x">
-                                <img src={banner_x} />
-                            </div>
-                        </div>
-                    </div>
+                    
 
                     
                 </div>
