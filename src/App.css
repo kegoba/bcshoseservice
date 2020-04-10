@@ -99,6 +99,7 @@ textarea[type="textarea"]{
 @media(max-width:800px){
   .banner{
     
+    
     max-width: 700px;
     max-height: 50px;
   }
@@ -142,10 +143,10 @@ outline: none;
 
 img{
  
-  max-width: 400px;
-  max-height: 400px;
+  max-width: 300px;
+  max-height: 300px;
 }
 
-.prevent,.image{
+.image{
   margin: 15px;
 }
