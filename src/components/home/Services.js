@@ -53,11 +53,11 @@ const Services = ()=>{
             <div className="container preventive">
                 <div className="row">
                     <div className="col">
-                        <img className="prevent" src={preventive1} />
+                        <img className="prevent image" src={preventive1} />
 
                     </div>
                     <div className="col">
-                        <img className="prevent" src={preventive2} />
+                        <img className="prevent image" src={preventive2} />
 
                         
                     </div>

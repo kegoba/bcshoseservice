@@ -27,25 +27,25 @@ const Product = ()=>{
             <div className="container product">
                 <div className="row">
                     <div className="col card-light">
-                        <img src={crimping} /> 
+                        <img className="image" src={crimping} /> 
                         <p className="products">Machines <Link to={"/contact"}> Order</Link> </p> 
                         
                         
                 </div>
                     <div className="col card-light">
-                        <img src={ferrules} />
+                        <img className="image"src={ferrules} />
                         <p className="products"> Ferrules <Link to={"/contact"}> Order</Link>  </p> 
                         
                         
                 </div>
                     <div className="col card-light">
-                        <img src={fittings } />
+                        <img className="image" src={fittings } />
                         <p className="products"> Fittings and Couplings <Link to={"/contact"}> Place Order</Link>  </p>
                          
                          
                 </div>
                     <div className="col card-light">
-                        <img src={metal} />
+                        <img className="image" src={metal} />
                        
                         <p className="products">  Specials  <Link to={"/contact"}>  Place Order</Link>  </p>
                 </div>

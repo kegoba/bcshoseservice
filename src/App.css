@@ -100,13 +100,14 @@ textarea[type="textarea"]{
   .banner{
     
     max-width: 700px;
+    max-height: 50px;
   }
   
 
 }
 @media(max-width:800px){
   .prevent{
-    max-width: 310px;
+    max-width: 410px;
   }
   
 
@@ -119,11 +120,14 @@ textarea[type="textarea"]{
   width: 100%;
   padding: 10px;
 border-radius: 40px;
+
 outline: none;
   
   }
 }
-
+.banner{
+  max-height: 50px;
+}
 
 .preventive{
   margin: 40px;
@@ -136,3 +140,12 @@ outline: none;
 
 }
 
+img{
+ 
+  max-width: 400px;
+  max-height: 400px;
+}
+
+.prevent,.image{
+  margin: 15px;
+}
