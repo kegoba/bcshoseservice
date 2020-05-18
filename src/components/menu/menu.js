@@ -20,8 +20,8 @@ class Menu extends Component {
 
             <Router className="container text-center">
                 <div className="menu">
-                    <nav className="navbar fixed-top navbar-expand-lg navbar-light ">
-                        <Link className="navbar-brand" to={"/"}>  <img className="logo" src={logo} /> <i className="fa fa-phone-square text-right"> 07030574793 </i> </Link>
+                    <nav className="navbar navbar-expand-lg navbar-light ">
+                        <Link className="navbar-brand" to={"/"}>  <img className="logo" src={logo} /> <i className="fa fa-phone-square"> 07030574793 </i> </Link>
                         <button type="button" className="navbar-toggler" data-toggle="collapse" data-target="#dropDrown">
                             <span className="navbar-toggler-icon"> </span>
                         </button>
