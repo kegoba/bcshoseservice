@@ -13,14 +13,9 @@ import hydraulic_services1 from "./image/hydraulic_services1.jpg"
 const Services = ()=>{
     return(
         <div className="container">
-            <div className="row">
-                <div className="col">
-                    <h4 className="services">
-                        OUR SERVICES
-                    </h4>
-                    <h5> Hose Repairs And Replacement</h5> 
+                    <h4 className="services">OUR SERVICES</h4>
+                    <h6> Hose Repairs And Replacement</h6> 
                     <div className="container preventive">
-                       
                         <div className="row">
                             <div className="col">
                                 <img className=" image" src={hose_repair_replacement} />
@@ -49,6 +44,8 @@ const Services = ()=>{
 
                         </div>
                     </div>
+
+                    
                     <h6 className="services"> <b>  Hydraulic Services </b></h6>
                     <div className="container preventive">
                         
@@ -68,29 +65,21 @@ const Services = ()=>{
                     </p>
 
 
-                        </div>
                     </div>
+                    </div>    
                
-           
-                    
-                    
-
-                    <h6 className="services"> <b> Preventive Maintenance </b>  </h6>
-                   
-                </div>
-
-            </div>
+                
+              <h6 className="services"> <b> Preventive Maintenance </b>  </h6>
             <div className="container preventive">
+                
+                    
                 <div className="row">
                     <div className="col">
                         <img className=" image" src={preventive_maintenance2} />
-
                     </div>
-                    <div className="col ">
-                        <img className=" image" src={preventive_maintenance3} />
-
-                        
-                    </div>
+                 <div className="col ">
+                        <img className=" image" src={preventive_maintenance3} /> 
+                 </div>
                     <p>
                         Hydraulic malfunctions and breakdown don’t happen on schedule or at a convenient time but
                         when it occurs, can be costly and dangerous. That’s why we suggest a proactive hydraulic
@@ -99,11 +88,11 @@ const Services = ()=>{
                         Call us today! or fill our contact form below and lets schedule an appointment.
                     </p>
 
-
+              </div>
+              </div>
 
                 
-                </div>
-            </div>
+               
 
         </div>
     )
