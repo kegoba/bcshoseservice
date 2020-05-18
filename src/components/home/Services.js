@@ -13,9 +13,9 @@ import hydraulic_services1 from "./image/hydraulic_services1.jpg"
 const Services = ()=>{
     return(
         <div className="container">
-                    <h4 className="services">OUR SERVICES</h4>
+                    <h4 className="">OUR SERVICES</h4>
                     <h6> Hose Repairs And Replacement</h6> 
-                    <div className="container preventive">
+                    <div className="container">
                         <div className="row">
                             <div className="col">
                                 <img className=" image" src={hose_repair_replacement} />
