@@ -4,10 +4,10 @@ import Home from "../home/Home"
 import Services from "../home/Services"
 import Contact from "../home/Contact"
 import Product from "../home/product"
-import logo from "../image/logo.jpg"
+import logo from "../home/image/logo.jpg"
 
-import banner_x from "../image/banner_x.jpg"
-import banner_xxl from "../image/banner_xxl.jpg"
+//import banner_x from "./image/banner_x.jpg"
+import banner_xxl from "../home/image/banner_xxl.jpg"
 
 
 class Menu extends Component {
@@ -20,8 +20,8 @@ class Menu extends Component {
 
             <Router className="container text-center">
                 <div className="menu">
-                    <nav className="navbar navbar-expand-lg navbar-light ">
-                        <Link className="navbar-brand" to={"/"}>  <img className="logo" src={logo} />  </Link>
+                    <nav className="navbar fixed-top navbar-expand-lg navbar-light ">
+                        <Link className="navbar-brand" to={"/"}>  <img className="logo" src={logo} /> <i className="fa fa-phone-square text-right"> 07030574793 </i> </Link>
                         <button type="button" className="navbar-toggler" data-toggle="collapse" data-target="#dropDrown">
                             <span className="navbar-toggler-icon"> </span>
                         </button>
@@ -46,7 +46,7 @@ class Menu extends Component {
                                 </div>
                          
                     </nav>
-                    <div className="container">
+                    <div className="container ">
                         <div className="row">
                             <div className="col">
                                 <img className="col banner" src={banner_xxl} />

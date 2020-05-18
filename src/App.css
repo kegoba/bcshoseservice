@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background: #F8F9FA;
 }
 
 .App-logo {
@@ -34,6 +35,7 @@
 
 .footer{
   margin-top:1%;
+  font-size: small;
  
 }
 form{
@@ -46,7 +48,7 @@ form{
 }
 
 
-.footer, .menu{
+.footer, nav, .menu{
   background :rgb(179, 12, 12);
 }
 
@@ -71,7 +73,9 @@ input[type="password"],
 
  
 }
-
+.social-media{
+  padding: 50px;
+}
 
 textarea[type="textarea"]{
     width: 51%;
@@ -94,7 +98,9 @@ textarea[type="textarea"]{
   }
 }
 
-
+.banner{
+  margin-top: 100px;
+}
 
 @media(max-width:800px){
   .banner{
@@ -140,7 +146,9 @@ outline: none;
 
 
 }
-
+h5, h6{
+  margin-top: 1500px;
+}
 img{
  
   max-width: 300px;
@@ -148,5 +156,7 @@ img{
 }
 
 .image{
-  margin: 15px;
+  margin: 10px;
+  width: 210px;
+  height: 200px;
 }

@@ -116,9 +116,9 @@ class Contact extends Component {
                         We are the specialist!
                         
                         Our goal is to reach our customers as quick as possible and conveniently provide
-                         superior services.  We look forward to hearing from you!
+                         superior services. <b> Get in touch with us.....! </b>
                      </p>
-                   <div classname="alert-success"> {this.state.msg} </div>
+                   <div className="alert-success"> {this.state.msg} </div>
                     <div className="container card-light">
                         <div className="row">
                             <div className="col">
