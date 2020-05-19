@@ -11,7 +11,7 @@ const Services = ()=>{
     return(
         <div className="container">
                     <h4 className="">OUR SERVICES</h4>
-                    <h6> Hose Repairs And Replacement</h6> 
+                    <p> Hose Repairs And Replacement</p> 
                     <div className="container">
                         <div className="row">
                             <div className="col">
