@@ -7,9 +7,6 @@ import hydraulic_services from "./image/hydraulic_services.jpg"
 import hydraulic_services1 from "./image/hydraulic_services1.jpg"
 
 
-
-//
-
 const Services = ()=>{
     return(
         <div className="container">

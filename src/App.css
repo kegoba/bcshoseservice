@@ -98,9 +98,7 @@ textarea[type="textarea"]{
   }
 }
 
-.banner{
-  margin-top: 80px;
-}
+
 
 @media(max-width:800px){
   .banner{
@@ -137,7 +135,7 @@ outline: none;
 }
 
 .preventive{
-  margin: 40px;
+  margin: 10px;
 
 }
 
@@ -152,7 +150,7 @@ h5, h6{
 img{
  
   max-width: 300px;
-  max-height: 300px;
+  max-height: 2b00px;
 }
 
 .image{
