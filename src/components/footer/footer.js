@@ -4,10 +4,10 @@ export const SocialMedia = () => {
   return (
     <div className="socail-media fixed-top animated flip">
       <div className="media-handle card-body">
-       <p> <a href="https://wa.me/2348189830161" target="_blank">   <i className="fa fa-whatsapp fa1 ">  </i> </a></p>
-        <p><a href="https://m.facebook.com/BCS-Services-109557460598778/" target="_blank">   <i className="fa fa-facebook fa1">  </i> </a> </p>
-        <p> <a href="https://www.linkedin.com/in/okezie-chinwa-6a588793" target="_blank">   <i className="fa fa-linkedin fa1">  </i> </a> </p>
-        <p><a href="https://twitter.com/bcshoseservices?s=08" target="_blank">   <i className="fa fa-twitter fa1">  </i> </a> </p>
+       <p> <a href="https://wa.me/2348189830161" >   <i className="fa fa-whatsapp fa1 ">  </i> </a></p>
+        <p><a href="https://m.facebook.com/BCS-Services-109557460598778/">   <i className="fa fa-facebook fa1">  </i> </a> </p>
+        <p> <a href="https://www.linkedin.com/in/okezie-chinwa-6a588793" >   <i className="fa fa-linkedin fa1">  </i> </a> </p>
+        <p><a href="https://twitter.com/bcshoseservices?s=08" >   <i className="fa fa-twitter fa1">  </i> </a> </p>
        <p> <i className="fa fa-envelope fa1">   </i> </p>
 
       </div>
@@ -31,10 +31,10 @@ export const Footer =()=>{
           </div>
           <i> Connect With Us </i>
           <div className="col">
-             <a href="https://wa.me/2348189830161" target="_blank">   <i className="fa fa-whatsapp fa1">  </i> </a>
-            <a href="https://m.facebook.com/BCS-Services-109557460598778/" target="_blank">   <i className="fa fa-facebook fa1">  </i> </a> 
-             <a href="https://www.linkedin.com/in/okezie-chinwa-6a588793" target="_blank">   <i className="fa fa-linkedin fa1">  </i> </a> 
-            <a href="https://twitter.com/bcshoseservices?s=08" target="_blank">   <i className="fa fa-twitter fa1">  </i> </a> 
+             <a href="https://wa.me/2348189830161" >   <i className="fa fa-whatsapp fa1">  </i> </a>
+            <a href="https://m.facebook.com/BCS-Services-109557460598778/" >   <i className="fa fa-facebook fa1">  </i> </a> 
+             <a href="https://www.linkedin.com/in/okezie-chinwa-6a588793" >   <i className="fa fa-linkedin fa1">  </i> </a> 
+            <a href="https://twitter.com/bcshoseservices?s=08" >   <i className="fa fa-twitter fa1">  </i> </a> 
              <i className="fa fa1 fa-envelope">   </i> 
 
           </div>
