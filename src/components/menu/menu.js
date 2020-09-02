@@ -11,17 +11,14 @@ import banner_xxl from "../home/image/banner_xxl.jpg"
 
 
 class Menu extends Component {
-    constructor() {
-        super()
-    }
+
     render() {
-        //const user  = this.state.user.first_name
         return (
 
             <Router className="container text-center">
                 <div className="menu">
                     <nav className="navbar navbar-expand-lg navbar-light ">
-                        <Link className="navbar-brand" to={"/"}>  <img className="logo" src={logo} /> <i className="fa fa-phone-square"> 07030574793 </i> </Link>
+                        <Link className="navbar-brand" to={"/"}> </Link> <img className="logo" src={logo} alt={logo} /> <i className="fa fa-phone-square"> 07030574793 </i>
                         <button type="button" className="navbar-toggler" data-toggle="collapse" data-target="#dropDrown">
                             <span className="navbar-toggler-icon"> </span>
                         </button>

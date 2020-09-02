@@ -10,8 +10,8 @@ import hydraulic_services1 from "./image/hydraulic_services1.jpg"
 const Services = ()=>{
     return(
         <div className="container">
-                    <h4 className="">OUR SERVICES</h4>
-                    <p> Hose Repairs And Replacement</p> 
+                    <h4 className=" our-services ">OUR SERVICES</h4>
+                    <p className="our-services"> Hose Repairs And Replacement</p> 
                     <div className="container">
                         <div className="row">
                             <div className="col">
@@ -30,20 +30,43 @@ const Services = ()=>{
                                 We are specialists in repairs of hydraulic hose, power steering, industrial, steam and high
                                 pressure hoses. Our expertise serves the following industry:
                         </p>
+                   
+                
                     
-                    Agriculture,
-                    Manufacture,
-                     Construction,
-                     Mining,
-                     Oil and Gas,
-                    Food and Chemical,
-                    Transportation and Utilities.
 
                         </div>
                     </div>
 
+                    <div className="container">
+                <ul className="center-text">
+                    <li>
+                        Transportation and Utilities.
+                        </li>
+                    <li>
+                        Food and Chemical
+                        </li>
                     
-                    <h6 className="services"> <b>  Hydraulic Services </b></h6>
+                    <li>
+                        Agriculture
+                        </li>
+                        <li>
+                        Manufacture
+                        </li>
+                        <li>
+                        Construction
+                        </li>
+                        <li>
+                        Oil and Gas
+                        </li>
+                    <li>
+                        Mining
+                        </li>
+                   
+                </ul>
+                    </div>
+
+                    
+            <h6 className="services  our-services"> <b>  Hydraulic Services </b></h6>
                     <div className="container preventive">
                         
                         <div className="row">
@@ -66,7 +89,7 @@ const Services = ()=>{
                     </div>    
                
                 
-              <h6 className="services"> <b> Preventive Maintenance </b>  </h6>
+            <h6 className="services  our-services"> <b> Preventive Maintenance </b>  </h6>
             <div className="container preventive">
                 
                     

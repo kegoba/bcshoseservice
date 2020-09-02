@@ -60,6 +60,9 @@ form{
 .culture,.gallary{
   margin-top: 40px;
 }
+gallary{
+  height: 300px;
+}
 
 
 input[type="text"],
@@ -89,10 +92,13 @@ textarea[type="textarea"]{
 }
 
 @media(max-width:700px){
-  input[type="text"],button[type="submit"],  input[type="password"]{
-  margin:1px ;
-  width: 100%!important;
-  padding: 1px;
+  input[type="text"],button[type="submit"],
+  textarea[type="textarea"]
+    input[type="password"] {
+  margin:10px ;
+  width: 80%;
+  height: 70%;
+  padding: 10px;
    border-radius: 40px;
     outline: none;
   }
@@ -117,14 +123,16 @@ textarea[type="textarea"]{
   
 
 }
-
+.contact-text{
+  width: 40%;
+}
 
 @media (max-width:700px){
 .btn{
   margin:10px ;
-  width: 100%;
+  width: 50%;
   padding: 10px;
-border-radius: 40px;
+border-radius: 70px;
 
 outline: none;
   
@@ -150,11 +158,54 @@ h5, h6{
 img{
  
   max-width: 300px;
-  max-height: 2b00px;
+  max-height: 200px;
 }
 
 .image{
   margin: 10px;
   width: 210px;
   height: 200px;
+}
+
+.fa1{
+  padding: 10px;
+  margin-right: 40px;
+  width: 30px;
+  height: 30px;
+  background: rgb(179, 12, 12);
+  border-radius: 15px;
+  color: white;
+  
+}
+.terms{
+  font-size: small;
+  margin-left : 40px;
+}
+
+.media-handle{
+  position: absolute;
+  left: 5px;
+  top: 200px;
+  z-index: -10px;
+  
+
+
+}
+
+ul{
+  display: block;
+  list-style-position: inside;
+  list-style-type:none;
+  font-size: x-large;
+
+  
+ 
+ 
+
+}
+
+.our-services{
+  color: rgb(179, 12, 12);
+  font-size: xx-large;
+
 }

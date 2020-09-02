@@ -19,28 +19,28 @@ class Home extends Component {
         return (
 
         <div>    
-            <div>
+            <div className="gallary">
                 <Gallary/>
             </div>
-                <div className="container animated swing">
+                <div className="container animated bounce">
                     <div className="row">
                         <div className="col">
-                            <h4> Our Services </h4>
+                            <h4 className=" btn btn-danger"  > Our Services </h4>
                                            
                             <p className="card-body bg-light"> 
                                 We provide hose assembly solutions which includes repairs of worn hose, 
                                 bursted hose, rebuild and custom fit replacement hoses for any of your 
                                 machines. Our team of experienced hose and hydraulic technicians are trusted
                                 to give you quality service anytime. We are specialists in repairs of hydraulic 
-                                hose, power steering, industrial, steam and high pressure hoses. <Link to="/services" > Read more... </Link>  
+                                hose, power steering, industrial, steam and high pressure hoses. <Link to="/services" className=" btn btn-danger" > Read more... </Link>  
                              </p>             
                       </div>          
                    </div>
                </div>
-               <div className="container   animated swing">
+               <div className="container   animated shake">
                     <div className="row">
                     <div className="col">
-                        <h4> Our Team </h4>
+                            <h4 className=" btn btn-danger"  > Our Team </h4>
                             <p className="card-body bg-light">
                            Our vast experience in major industries repairing, servicing hoses, 
                            and hydraulics gives us the quality you’re looking for. BCS hose and
@@ -63,10 +63,10 @@ class Home extends Component {
                     </div>
                 </div>
             </div>
-                <div className="container animated swing ">
+                <div className="container animated shake ">
                     <div className="row">
                     <div className="col">
-                        <h4 id="about"> About us </h4>
+                            <h4 id="about" className=" btn btn-danger" > About us </h4>
                           <p className="card-body bg-light">
                             BCS hose and fluid services is a tradename for the company B.C Okezie and Sons
                             Enterprises. The company specializes in repairs, rebuild and maintenance of hoses 

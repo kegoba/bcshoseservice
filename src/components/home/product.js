@@ -14,7 +14,7 @@ const Product = ()=>{
     return (
     <div >
             <div className="container preventive">
-                   <h4> PRODUCTS</h4> 
+                <h4 className=" btn btn-danger" > PRODUCTS</h4> 
                        <p> At BCS we are focused on meeting the of demand for our customers, anytime, anywhere and offering the best quality in the market. We have the best stockists of hose accessories to suit any applications!
                         Our products are from reputable companies both locally and globally earning us an inventory of a broad range of products for every industry. Not sure which hydraulic fitting is best for your application or what fitting your looking for? Contact BCS today, and we’ll find one for you!
                         </p>
@@ -25,26 +25,26 @@ const Product = ()=>{
                 <div className="row">
                     <div className="col card-light">
                         <img className="image" src={machines2} /> 
-                        <p className="products">Machines <Link to={"/contact"}> Order</Link> </p> 
+                        <p className="products ">Machines <br/> <Link to={"/contact"} className=" btn btn-danger" >Place Order </Link> </p> 
                         
                         
                 </div>
                     <div className="col card-light">
                         <img className="image" src={ferrules} />
-                        <p className="products"> Ferrules <Link to={"/contact"}> Order</Link>  </p> 
+                        <p className="products"> Ferrules <br/> <Link to={"/contact"} className=" btn btn-danger" >  Place Order </Link>  </p> 
                         
                         
                 </div>
                     <div className="col card-light">
                         <img className="image" src={fittings } />
-                        <p className="products"> Fittings and Couplings <Link to={"/contact"}> Place Order</Link>  </p>
+                        <p className="products"> Fittings and Couplings  <br/><Link to={"/contact"} className=" btn btn-danger" > Place Order</Link>  </p>
                          
                          
                 </div>
                     <div className="col card-light">
                         <img className="image" src={metal} />
                        
-                        <p className="products">  Specials  <Link to={"/contact"}>  Place Order</Link>  </p>
+                        <p className="products">  Specials <br/>  <Link to={"/contact"} className=" btn btn-danger" >  Place  Order </Link>  </p>
                 </div>
                 </div>
             </div>

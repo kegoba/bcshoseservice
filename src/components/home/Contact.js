@@ -110,79 +110,57 @@ class Contact extends Component {
         return (
             <div>
 
-                <form className="text-center " >
-                    <p className="products"> For everything hose; hydraulic, water, oil and gas, power steering, 
+                <div className=" container text-center  " >
+                    <div  className=" container contact-text">
+                         <p className="products "> For everything hose; hydraulic, water, oil and gas, power steering, 
                         steam, air, and metal, whatever and however you want the repair? 
                         We are the specialist!
                         
                         Our goal is to reach our customers as quick as possible and conveniently provide
-                         superior services. <b> Get in touch with us.....! </b>
+                         superior services. <b className="btn btn-danger"> Get in touch with us</b>
                      </p>
+
+                    </div>
+                   
                    <div className="alert-success"> {this.state.msg} </div>
-                    <div className="container card-light">
-                        <div className="row">
-                            <div className="col">
-                                <label className="text-center" > Name </label>
-                            </div>
-                        </div>
+                    <form className="container animated bounce">
                         <div className="container">
                             <div className="row">
                                 <div className="col">
-                                    <input type="text" className="text-center" onChange={this.onchangeName} value={this.state.name} />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="container">
-                        <div className="row">
-                            <div className="col">
-                                <label className="text-center" > Phone </label>
-                            </div>
-                        </div>
-                        <div className="container">
-                            <div className="row">
-                                <div className="col">
-                                    <input type="text" className="text-center" onChange={this.onchangePhone}  value={this.state.phone} />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="container">
-                        <div className="row">
-                        <div className="col">
-                            <label className="text-center" > Email </label>
-                        </div>
-                    </div>
-                    <div className="container">
-                        <div className="row">
-                            <div className="col">
-                                <input type="text" className="text-center" onChange={this.onchangeEmail} value={this.state.email} />
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-                    <div className="container">
-                        <div className="row">
-                            <div className="col">
-                                <label className="text-center"> Message </label>
-                            </div>
-                        </div>
-                        <div className="container">
-                            <div className="row">
-                                <div className="col">
-                                    <textarea type="textarea" className="text-center" onChange={this.onchangeMessage} value={this.state.message}  > </textarea>
+                                    <input type="text" className="text-center" onChange={this.onchangeName} value={this.state.name} placeholder="Enter Name" />
                                 </div>
                             </div>
                         </div>
                         <div className="container">
                             <div className="row">
                                 <div className="col">
-                                    <button type="submit" onClick={this.handleSubmit} className="btn btn-success">  Send  </button>
+                                    <input type="text" className="text-center" onChange={this.onchangePhone} value={this.state.phone} placeholder="Phone Number" />
                                 </div>
                             </div>
                         </div>
+                    <div className="container">
+                        <div className="row">
+                            <div className="col">
+                                    <input type="text" className="text-center" onChange={this.onchangeEmail} value={this.state.email} placeholder="Enter Email" />
+                            </div>
+                        </div>
                     </div>
-                </form>
+                    <div className="container">
+                            <div className="row">
+                                <div className="col">
+                                    <textarea type="textarea" className="text-center" onChange={this.onchangeMessage} value={this.state.message} placeholder="Message"  > </textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="container">
+                            <div className="row">
+                                <div className="col">
+                                    <button type="submit" onClick={this.handleSubmit} className="btn btn-danger">  Send  </button>
+                                </div>
+                            </div>
+                        </div>
+            </form> 
+                </div>
 
 
 
