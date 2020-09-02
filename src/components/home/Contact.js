@@ -1,13 +1,6 @@
 import React, { Component } from "react"
-import { Link } from 'react-router-dom'
+
 import * as emailjs from 'emailjs-com'
-//import AliceCarousel from "react-alice-carousel" 
-//import  bed1 from "../image/bed1.jpg"
-//import Gallary from "../gallary/gallary"
-
-
-
-
 class Contact extends Component {
     constructor() {
         super()

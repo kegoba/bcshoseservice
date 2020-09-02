@@ -1,7 +1,5 @@
 import React from 'react';
-import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css'
-import metal from "./image/metal.jpg"
 import preventive_maintenance1 from "./image/preventive_maintenance1.jpeg"
 import hydraulic_services from "./image/hydraulic_services.jpg"
 import hose_repair from "./image/hose_repair.jpg"
@@ -19,15 +17,15 @@ const Gallary = () => {
             <div id="slider" className="carousel slide" data-ride="carousel">
               <div className="carousel-inner">
                 <div className="carousel-item active ">
-                  <img className="prevent" src={preventive_maintenance3} />
+                  <img className="prevent" src={preventive_maintenance3} alt="" />
                   <p className="products"> hydraulic </p>
                 </div>
                 <div className="carousel-item">
-                  <img className="prevent" src={machines} />
+                  <img className="prevent" src={machines} alt="" />
                   <p className="products "> Machine </p>
                 </div>
                 <div className="carousel-item bounce">
-                  <img className="prevent" src={fittings} />
+                  <img className="prevent" src={fittings} alt=""  />
                   <p className="products"> Assembly fittings </p>
                 </div>
               </div>
@@ -37,15 +35,15 @@ const Gallary = () => {
             <div id="slider" className="carousel slide" data-ride="carousel">
               <div className="carousel-inner">
                 <div className="carousel-item active ">
-                  <img className="prevent" src={preventive_maintenance1} />
+                  <img className="prevent" src={preventive_maintenance1} alt="" />
                   <p className="products"> preventive maintenance</p>
                 </div>
                 <div className="carousel-item">
-                  <img className="prevent" src={hydraulic_services} />
+                  <img className="prevent" src={hydraulic_services} alt=""  />
                   <p className="products"> hydraulics</p>
                 </div>
                 <div className="carousel-item">
-                  <img className="prevent" src={hose_repair} />
+                  <img className="prevent" src={hose_repair} alt="" />
                   <p className="products"> custom hydraulic hoses</p>
                 </div>
               </div>

@@ -9,11 +9,8 @@ import Gallary from "./Gallary"
 
 
 class Home extends Component {
-    constructor() {
-        super()
-       
 
-    }
+    
     render() {
 
         return (

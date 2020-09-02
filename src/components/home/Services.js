@@ -15,11 +15,11 @@ const Services = ()=>{
                     <div className="container">
                         <div className="row">
                             <div className="col">
-                                <img className=" image" src={hose_repair_replacement} />
+                        <img className=" image" src={hose_repair_replacement} alt="" />
 
                             </div>
                             <div className="col ">
-                                <img className=" image" src={hose_repair_replacement1} />
+                        <img className=" image" src={hose_repair_replacement1} alt="" />
 
 
                             </div>
@@ -71,11 +71,11 @@ const Services = ()=>{
                         
                         <div className="row">
                             <div className="col">
-                                <img className=" image" src={hydraulic_services1} />
+                        <img className=" image" src={hydraulic_services1} alt="" />
 
                             </div>
                             <div className="col ">
-                                <img className=" image" src={hydraulic_services } />
+                        <img className=" image" src={hydraulic_services} alt="" />
 
 
                             </div>
@@ -95,10 +95,10 @@ const Services = ()=>{
                     
                 <div className="row">
                     <div className="col">
-                        <img className=" image" src={preventive_maintenance2} />
+                        <img className=" image" src={preventive_maintenance2} alt="" />
                     </div>
                  <div className="col ">
-                        <img className=" image" src={preventive_maintenance3} /> 
+                        <img className=" image" src={preventive_maintenance3} alt="" /> 
                  </div>
                     <p>
                         Hydraulic malfunctions and breakdown don’t happen on schedule or at a convenient time but

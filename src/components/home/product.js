@@ -1,6 +1,5 @@
 import React from "react"
 import {Link} from "react-router-dom"
-import Contact from "./Contact"
 import  machines2 from "./image/machines2.jpeg"
 import ferrules from "./image/ferrules.jpeg";
 import fittings from "./image/fittings.jpg"
@@ -24,25 +23,25 @@ const Product = ()=>{
             <div className="container product">
                 <div className="row">
                     <div className="col card-light">
-                        <img className="image" src={machines2} /> 
+                        <img className="image" src={machines2} alt="" /> 
                         <p className="products ">Machines <br/> <Link to={"/contact"} className=" btn btn-danger" >Place Order </Link> </p> 
                         
                         
                 </div>
                     <div className="col card-light">
-                        <img className="image" src={ferrules} />
+                        <img className="image" src={ferrules} alt="" />
                         <p className="products"> Ferrules <br/> <Link to={"/contact"} className=" btn btn-danger" >  Place Order </Link>  </p> 
                         
                         
                 </div>
                     <div className="col card-light">
-                        <img className="image" src={fittings } />
+                        <img className="image" src={fittings} alt=""/>
                         <p className="products"> Fittings and Couplings  <br/><Link to={"/contact"} className=" btn btn-danger" > Place Order</Link>  </p>
                          
                          
                 </div>
                     <div className="col card-light">
-                        <img className="image" src={metal} />
+                        <img className="image" src={metal} alt="" />
                        
                         <p className="products">  Specials <br/>  <Link to={"/contact"} className=" btn btn-danger" >  Place  Order </Link>  </p>
                 </div>

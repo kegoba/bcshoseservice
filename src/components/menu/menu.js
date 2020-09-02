@@ -46,7 +46,7 @@ class Menu extends Component {
                     <div className="container ">
                         <div className="row">
                             <div className="col">
-                                <img className="col banner" src={banner_xxl} />
+                                <img className="col banner" src={banner_xxl} alt="" />
                             </div>
                            
 
