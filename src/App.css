@@ -46,10 +46,22 @@ form{
   padding: 40px;
 
 }
+.contact-us-btn{
+  background:rgb(179, 12, 12);
+    color: #fff;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    font-size: large;
+
+  
+
+}
 
 
 .footer, nav, .menu{
   background :rgb(179, 12, 12);
+  
 }
 
 
@@ -168,9 +180,9 @@ img{
 }
 
 .fa1{
-  padding: 10px;
-  margin-right: 40px;
-  width: 30px;
+  padding: 8px;
+  margin-right: 8px;
+  width: 20px;
   height: 30px;
   background: rgb(179, 12, 12);
   border-radius: 15px;

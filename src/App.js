@@ -15,11 +15,7 @@ function App() {
        <Menu/>
       
      </div>
-      <div className="media-handle">
-        <SocialMedia/>
-      </div>
-
-
+   
       <div className='footer'>
         <Footer />
       </div>

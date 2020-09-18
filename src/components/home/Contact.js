@@ -108,9 +108,9 @@ class Contact extends Component {
                          <p className="products "> For everything hose; hydraulic, water, oil and gas, power steering, 
                         steam, air, and metal, whatever and however you want the repair? 
                         We are the specialist!
-                        
+                         
                         Our goal is to reach our customers as quick as possible and conveniently provide
-                         superior services. <b className="btn btn-danger"> Get in touch with us</b>
+                         superior services. <i className="contact-us-btn"> Get in touch </i>
                      </p>
 
                     </div>
