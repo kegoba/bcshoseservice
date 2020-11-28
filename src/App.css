@@ -143,9 +143,9 @@ textarea[type="textarea"]{
 .btn{
   margin:10px ;
   width: 50%;
+  height: 30px;
   padding: 10px;
 border-radius: 70px;
-
 outline: none;
   
   }

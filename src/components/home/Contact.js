@@ -110,7 +110,7 @@ class Contact extends Component {
                         We are the specialist!
                          
                         Our goal is to reach our customers as quick as possible and conveniently provide
-                         superior services. <i className="contact-us-btn"> Get in touch </i>
+                         superior services. <i className="btn btn-danger"> Get in touch </i>
                      </p>
 
                     </div>
