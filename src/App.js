@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import './animate.css';
 
-import {Footer, SocialMedia} from "./components/footer/footer"
+import {Footer} from "./components/footer/footer"
 
 import Menu from "./components/menu/menu"
 
