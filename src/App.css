@@ -135,17 +135,15 @@ textarea[type="textarea"]{
   
 
 }
-.contact-text{
-  width: 40%;
-}
+
 
 @media (max-width:700px){
 .btn{
   margin:10px ;
   width: 50%;
-  height: 30px;
   padding: 10px;
 border-radius: 70px;
+
 outline: none;
   
   }

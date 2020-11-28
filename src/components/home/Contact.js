@@ -104,8 +104,8 @@ class Contact extends Component {
             <div>
 
                 <div className=" container text-center  " >
-                    <div  className=" container contact-text">
-                         <p className="products "> For everything hose; hydraulic, water, oil and gas, power steering, 
+                    <div  className=" container">
+                        <p className="container "> For everything hose; hydraulic, water, oil and gas, power steering, 
                         steam, air, and metal, whatever and however you want the repair? 
                         We are the specialist!
                          
